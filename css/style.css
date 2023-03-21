@@ -1,0 +1,176 @@
+#btnUp {
+    background-color: #ff5c97;
+    color: #fff;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid transparent;
+    display: none;
+}
+
+.home {
+    height: 100%;
+    background-image: url(../imgs/h1_hero.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.home h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #2b4b80;
+}
+
+.home p {
+    width: 80%;
+    color: #707b8e;
+    line-height: 30px;
+}
+
+.home .home-btn a,
+.create .create-caption a {
+    background-color: #ff5c97;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.home .col-lg-5 {
+    width: 49% !important;
+}
+
+.navbar .nav-btn a {
+    background-color: #4043bc;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+
+.navbar .nav-item a {
+    color: #002e5b !important;
+}
+
+.navbar .nav-item:hover a {
+    color: #ff5c97 !important;
+}
+
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 0%;
+    height: 0%;
+    background-color: #ec4683;
+    border-radius: 5px;
+    transition: width 0.5s;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.btn:hover::before {
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+}
+
+/* 
+what-we-will
+*/
+
+.section-tittle h2 {
+    color: #2b4b80;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.what-we-will .icon i {
+    font-size: 60px;
+    color: #ff5c97;
+}
+
+.what-we-will .info h4 {
+    color: #2b4b80;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.what-we-will .info p,
+.create .create-caption p,
+.generating .generating-caption p {
+    color: #707b8e;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.what-we-will .do-btn p {
+    color: #c5ccd8;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.title:hover .do-btn p {
+    color: #7b40c0;
+}
+
+.title.active {
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+}
+
+.title.active .do-btn p {
+    color: #7b40c0
+}
+
+.title {
+    transition: box-shadow 0.4s ease-out;
+}
+
+.title:hover {
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+}
+
+/* 
+\
+\ */
+
+.create .create-caption h3 {
+    color: #2b4b80;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* 
+
+*/
+.generating .info {
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    transition: all .4s ease-out;
+}
+
+.generating .info .generating-icon i {
+    color: #ff5c97;
+    font-size: 60px;
+}
+
+.generating .generating-caption h4 {
+    color: #2b4b80;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.generating .info:hover {
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.2)
+}
