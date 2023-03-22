@@ -25,9 +25,18 @@
     .generating .info .generating-icon i {
         font-size: 41px;
     }
+
     .generating .info {
         padding: 20px 8px 20px !important;
     }
 
-    
+    .car-p {
+        padding: 0px !important;
+    }
+
+    .icon-say,
+    .icon-say2 {
+        display: none;
+    }
+
 }

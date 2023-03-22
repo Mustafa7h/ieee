@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // $("#loading").fadeOut(3000);
+    $("#loading").fadeOut(3000);
     let y = $('#we-will').offset().top;
     $(window).scroll(function () {
         let x = $(window).scrollTop();
@@ -21,3 +21,7 @@ $("#btnUp").on("click", function () {
 $('#nav-b').on('click', function () {
     $('#main-nav').css('cssText', 'background-color: #FFF !important')
 });
+
+
+
+
