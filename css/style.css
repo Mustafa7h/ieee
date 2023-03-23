@@ -440,3 +440,55 @@ what-we-will
 .tips .info:hover img {
     transform: scale(1.1);
 }
+
+
+/* 
+
+*/
+
+.have-project .col-bg {
+    background-image: url(../imgs/have.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-caption,
+.project-btn {
+    z-index: 1;
+}
+
+.have-project .col-bg::before {
+    background-image: -webkit-linear-gradient(#FF5C97 0%, #7b40c0 100%);
+}
+
+.have-project .col-bg::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    content: "";
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+.have-project .project-caption h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.have-project .project-caption p {
+    color: #fff;
+    line-height: 30px;
+    width: 60%;
+}
+
+.have-project .project-btn a {
+    background-color: #fff;
+    text-decoration: none;
+    color: #7b40c0;
+}
