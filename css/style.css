@@ -125,6 +125,8 @@
     }
 }
 
+
+
 .home {
     height: 100%;
     background-image: url(../imgs/h1_hero.png);
@@ -173,6 +175,10 @@
     color: #ff5c97 !important;
 }
 
+.btn {
+    z-index: 1;
+}
+
 
 .btn::before {
     content: "";
@@ -186,12 +192,15 @@
     transition: width 0.5s;
     transition-timing-function: linear;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    z-index: 1;
+
 }
 
 .btn:hover::before {
     width: 100%;
     height: 100%;
     color: #fff !important;
+    z-index: -1;
 }
 
 /* 
@@ -425,7 +434,7 @@ what-we-will
 .tips-caption span::before {
     content: "";
     position: absolute;
-    top: 61%;
+    top: 52%;
     left: 0px;
     width: 40px;
     height: 3px;
@@ -492,3 +501,8 @@ what-we-will
     text-decoration: none;
     color: #7b40c0;
 }
+
+.have-project .project-btn a:hover {
+    color: #fff;
+}
+
