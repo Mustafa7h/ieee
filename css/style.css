@@ -9,7 +9,9 @@ body {
 end font body
 */
 
-
+/*
+****** button Up ****** 
+ */
 #btnUp {
     background-color: #ff5c97;
     color: #fff;
@@ -25,6 +27,14 @@ end font body
     display: none;
 }
 
+/*
+****** End button Up ****** 
+ */
+
+/*
+******loading ****** 
+ */
+
 #loading {
     position: fixed;
     top: 0px;
@@ -37,6 +47,7 @@ end font body
     align-items: center;
     justify-content: center;
 }
+
 
 .sk-chase {
     width: 40px;
@@ -137,7 +148,13 @@ end font body
     }
 }
 
+/*
+****** End loading ****** 
+ */
 
+/*
+******start header (home) ****** 
+ */
 
 .home {
     height: 100%;
@@ -172,6 +189,13 @@ end font body
     width: 48% !important;
 }
 
+/*
+******End header (home) ****** 
+ */
+
+/*
+******start navbar ****** 
+ */
 .navbar .nav-btn a {
     background-color: #4043bc;
     color: #fff;
@@ -187,6 +211,9 @@ end font body
     color: #ff5c97 !important;
 }
 
+/* 
+    button hover
+*/
 .btn {
     z-index: 1;
 }
@@ -214,6 +241,10 @@ end font body
     color: #fff !important;
     z-index: -1;
 }
+
+/*
+******End navbar ****** 
+ */
 
 /* 
 what-we-will
@@ -286,7 +317,7 @@ what-we-will
 
 
 /* 
-
+(start) Generating New Customers Via Online Mode​
 */
 .generating .info {
     border: 2px solid #f2f2f2;
@@ -312,7 +343,7 @@ what-we-will
 
 
 /* 
-
+(start) Choose Your Very Best Pricing Plan
 */
 .choose .info {
     border: 1px solid #ececec;
@@ -348,7 +379,7 @@ what-we-will
 }
 
 /* 
-
+(start) Visit Some Of Our Awsome Stuffs
 */
 
 .visit .visited-cap {
@@ -421,7 +452,9 @@ what-we-will
 
 
 /* 
- */
+(start) Tips and Tricks From Our Exparts​
+
+*/
 
 .tips .info .tips-caption h4 a {
     color: #2b4b80;
@@ -464,7 +497,7 @@ what-we-will
 
 
 /* 
-
+(start) Have project in mind?
 */
 
 .have-project .col-bg {
@@ -517,6 +550,10 @@ what-we-will
 .have-project .project-btn a:hover {
     color: #fff;
 }
+
+/* 
+ start footer
+*/
 
 .footer {
     background-image: url(../imgs/footer_bg.png);
@@ -572,12 +609,13 @@ what-we-will
     font-size: 16px;
     line-height: 2;
 }
+
 .footer-bottom .footer-border P span {
-color: #7b40c0;
+    color: #7b40c0;
 
 }
 
 .footer-bottom .footer-border P span:hover {
-color: red;
+    color: red;
 
 }
