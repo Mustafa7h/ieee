@@ -66,4 +66,8 @@
         margin: 0px;
         padding: 0px;
     }
+
+    .footer .container .row .support {
+        margin: 0px;
+    }
 }
