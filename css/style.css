@@ -517,3 +517,67 @@ what-we-will
 .have-project .project-btn a:hover {
     color: #fff;
 }
+
+.footer {
+    background-image: url(../imgs/footer_bg.png);
+}
+
+.footer .footer-tittle p {
+    color: #707b8e;
+}
+
+.footer .footer-social a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: #949eb2;
+    transition: all .4s ease-out;
+}
+
+.footer .footer-social a:hover {
+    background-color: #ff5c97;
+}
+
+.footer-social a:hover i {
+    color: #fff;
+}
+
+.footer .footer-tittle h4 {
+    color: #012f5f;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer .footer-tittle ul li a {
+    text-decoration: none;
+    color: #868c98;
+    font-weight: 300;
+}
+
+.footer .footer-tittle ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-bottom .footer-border P {
+    color: #888888;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+}
+.footer-bottom .footer-border P span {
+color: #7b40c0;
+
+}
+
+.footer-bottom .footer-border P span:hover {
+color: red;
+
+}

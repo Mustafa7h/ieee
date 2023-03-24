@@ -38,11 +38,12 @@
     .icon-say2 {
         display: none;
     }
+
     .have-project .project-caption h2 {
         font-size: 31px;
     }
 
-    .have-project .project-caption p{
+    .have-project .project-caption p {
         font-size: 15px;
         width: 100%;
     }
@@ -52,10 +53,17 @@
         flex-direction: column;
         align-items: start !important;
     }
+
     .have-project .container {
         padding: 0px 25px;
     }
+
     .have-project .container .info {
         padding: 40px 0px !important;
+    }
+
+    .footer .container .row {
+        margin: 0px;
+        padding: 0px;
     }
 }
