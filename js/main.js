@@ -7,7 +7,7 @@ $(document).ready(function () {
             $('#main-nav').css('cssText', 'background-color: #fff !important; box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1) !important')
             $("#btnUp").fadeIn(500);
         } else {
-            $('#main-nav').css('cssText', 'background-color: transparent !important')
+            $('#main-nav').css('cssText', 'background-color: #fff !important')
             $("#btnUp").fadeOut(500);
         }
     });
