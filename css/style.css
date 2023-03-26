@@ -596,6 +596,8 @@ what-we-will
     text-decoration: none;
     color: #868c98;
     font-weight: 300;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .footer .footer-tittle ul li {
@@ -618,4 +620,10 @@ what-we-will
 .footer-bottom .footer-border P span:hover {
     color: red;
 
+}
+
+
+.footer .footer-tittle ul li a:hover {
+    color: #ff5c97;
+    padding-left: 5px
 }
